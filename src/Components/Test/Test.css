@@ -1,0 +1,156 @@
+/* desktop menu navigation */
+
+
+.desktop-nav-container {
+  font-family: "Montserrat", sans-serif;
+  /* font-family: "system-ui", "Roboto", "Montserrat", sans-serif; */
+  width: 180px;
+  height: 100%;
+  margin-top: 28px;
+  margin-left: 48px;
+  position: fixed;
+  display: inline-block;
+}
+
+.desktop-nav-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.desktop-nav-list a {
+  display: block;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: black;
+  text-decoration: none;
+  line-height: 170%;
+}
+
+.desktop-nav-list a:hover {
+  color: #29fd2f;
+}
+
+.desktop-nav-name {
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  margin-top: 0;
+  margin-bottom: 24px;
+  color: #000;
+}
+
+/* Mobile menu navigation */
+
+.mobile-nav-list {
+  background-color: white;
+  list-style-type: none;
+  text-align: center;
+
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  left:0;
+  top: 0;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.mobile-nav-list li {
+  background-color: white;
+  list-style-type: none;
+  margin-left: -48px;
+  font-size: 2em;
+  padding: 0;
+
+  top: 25%;
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+
+.mobile-nav-list a {
+  display: block;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: black;
+  text-decoration: none;
+  line-height: .95em;
+
+  position: relative;
+  /* padding: 3vw 5vw; */
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mobile-nav-name h1 {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  z-index: 100;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 130%;
+  margin-top: 16px;
+}
+
+/* Icon */
+
+.mobile-menu-button-icon {
+  position: absolute;
+  top: 6.5px;
+  right: 12px;
+  width: 50px;
+  height: 50px;
+  background: transparent;
+  border: none;
+  z-index: 200;
+}
+
+/* Resizing */
+
+@media (max-width: 599px) {
+
+  .desktop-nav-container {
+    display: none;
+  }
+
+  .nav-hamburger-icon {
+    display: inline-block;
+  }
+
+  button.mobile-button {
+    display: block;
+    position: fixed;
+  }
+
+  .mobile-nav-list a {
+    /* position: fixed; */
+    /* background-color: #eeedf2; */
+    color: black;
+  }
+
+  .mobile-nav-name {
+    display: inline-block;
+  }
+}
+
+@media (min-width: 600px) {
+  .nav-hamburger-icon {
+    display: none;
+  }
+
+  .desktop-nav-container {
+    display: inline-block;
+  }
+
+  .mobile-button {
+    display: none;
+  }
+
+  .mobile-nav-name {
+    display: none;
+  }
+}

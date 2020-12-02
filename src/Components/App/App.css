@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&display=swap');
+
+
+
+/* .app-navigation {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    column-gap: 32px;}
+
+.app-navigation-menu {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    margin-left: 20px;
+} */
+
+
+
+
+
+.TEST-app-container {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    column-gap: 32px;
+}
+
+.TEST-app-nav {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.TEST-app-work {
+    grid-column-start: 3;
+    grid-column-end: 9;
+}
+
+.TEST-app-about {
+    grid-column-start: 4;
+    grid-column-end: 9;
+}
+
+.appNavBar {
+    text-align: left;
+    position: fixed;
+    margin-top: 0px;
+    padding-top: 40px;
+    padding-left: 80px;
+    width: 180px;
+    height: 100vh;
+    display: block;
+    /* background-color: lightblue; */
+}
+
+.appNavBar .appNavName {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: black;
+    margin-bottom: 1em;
+}
+
+.appNavBar a {
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    color: black;
+    margin-top: .5em;
+    text-decoration: none;
+}
+
+.appNavBar a:hover {
+    color: #29FD2F;
+}

@@ -1,0 +1,130 @@
+.contact-container {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  column-gap: 32px;
+  box-sizing: border-box;
+  width: calc(100% - 96px);
+  margin-left: 48px;
+  margin-right: 48px;
+  margin-top: 0;
+}
+
+.contact-container section {
+  margin-top: 104px;
+  grid-column-start: 3;
+  grid-column-end: 13;
+}
+
+.contact-image-container-desktop {
+  grid-column-start: 3;
+  grid-column-end: 9;
+}
+
+.contact-image-container-desktop img {
+  margin-top: 32px;
+  margin-bottom: 64px;
+  object-fit: cover;
+  width: 100%;
+  max-height: 100%;
+}
+
+.contact-container a:link, 
+.contact-container a:visited {
+  color: magenta;
+  text-decoration: none;
+  border-bottom: 1px solid magenta;
+}
+
+.contact-container a:hover {
+  color: #29fd2f;
+  text-decoration: none;
+  border-bottom: 1px solid #29fd2f;
+}
+
+.contact-mobile-image-container {
+  display: none;
+}
+
+.contact-container-mobile {
+  display: block;
+}
+
+/* MOBILE VERSION */
+
+@media screen and (max-width: 600px) {
+
+  .contact-container-desktop {
+    display: none;
+  }
+
+  .contact-image-container-desktop img {
+    display: none;
+  }
+
+  .contact-container {
+    display: block;
+    margin: 0;
+    width: 100%;
+  }
+
+  .contact-container a:link, 
+.contact-container a:visited {
+  color: black;
+  text-decoration: none;
+  border-bottom: 1px solid black;
+}
+
+  .contact-container section {
+    color: black;
+    font-size: 16px;
+    line-height: 150%;
+    margin-top: 72px;
+  }
+
+  .contact-container section a:visited {
+    color: black;
+  } 
+  
+  .contact-container-mobile {
+    max-width: 100%;
+    height: auto;
+    text-align: left;
+    background-color: transparent;
+    line-height: 150%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 72px;
+  }
+
+  .contact-container a {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16;
+    color: black;
+  }
+
+  .contact-image-container-mobile img {
+    margin-top: 0;
+    margin-bottom: 16px;
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+  }
+.contact-container-mobile a {
+  text-decoration: underline;
+  border-bottom: 1px solid black;
+}
+
+.contact-container-mobile p {
+  line-height: .9em;
+  font-size: 16px;
+}
+
+}
+
+@media screen and (min-width: 601px) {
+  .contact-container-mobile {
+    display: none;
+  }
+}

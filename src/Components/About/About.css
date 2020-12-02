@@ -1,0 +1,132 @@
+.about-container {
+  /* display: grid;
+  width: 100%;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  column-gap: 32px; */
+
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  column-gap: 32px;
+  box-sizing: border-box;
+  width: calc(100% - 96px);
+  margin-left: 48px;
+  margin-right: 48px;
+
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.4em;
+  font-weight: 400;
+}
+
+.about-container section a {
+  text-decoration: none;
+  color: magenta;
+}
+
+.about-container section {
+  margin-top: 104px;
+  grid-column-start: 3;
+  grid-column-end: 8;
+}
+
+.about-container section a:hover {
+  color: #29fd2f;
+  border-bottom: 1px solid #29fd2f;
+}
+
+.about-bold {
+  font-weight: 800;
+  line-height: 1.2em;
+}
+
+.about-image-container-desktop {
+  text-align: center;
+  grid-column-start: 8;
+  grid-column-end: 13;
+  margin-top: 16px;
+}
+
+.about-article-bold {
+  font-weight: 600;
+}
+
+.about-article-bold a {
+  text-decoration: none;
+  color: magenta;
+  border-bottom:1px solid magenta;
+  padding-bottom: 0.5px;
+  font-weight: 600;
+}
+
+.about-image-container-desktop img {
+  object-fit: cover;
+  width: 86%;
+  max-height: 100%;
+  margin-top: 104px;
+}
+
+.about-image-container-mobile {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  background-color: transparent;
+}
+
+.about-image-container-mobile img {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.about-image-container-mobile h2 {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.about-container-mobile {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.4em;
+  font-weight: 400;
+  padding-bottom: 32px;
+}
+
+.about-container-mobile a {
+  text-decoration: none;
+  border-bottom: 1px solid magenta;
+  color: magenta;
+  font-weight: 600;
+}
+
+
+/* MOBILE VERSION */
+
+@media screen and (max-width: 600px) {
+
+  .about-container {
+    display: block;
+    margin: 0;
+    width: calc(100% - 20px);
+  }
+
+  .about-container section {
+    margin-top: 72px;
+  }
+
+  .about-container-desktop {
+    display: none;
+  }
+
+  .about-image-container-desktop img {
+    display: none;
+  }
+
+}
+
+@media screen and (min-width: 601px) {
+  .about-container-mobile {
+    display: none;
+  }
+}
