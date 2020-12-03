@@ -18,7 +18,7 @@ export class About extends React.Component {
           </h2>
           <p>
             Guided by an interest in visual perception, Thomas explores color,
-            light, materiality, and space. These themes are addressed by Thomas
+            light, materiality, and space. These themes are addressed by the artist
             in a diverse range of media including painting, neon, and acrylic
             resin. Thomas has exhibited at galleries, museums, and institutions,
             and recently participated in group exhibitions at Christie’s, New
