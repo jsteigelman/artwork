@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/greencreate.github.io/static/css/main.bfe4b74f.chunk.css",
-    "main.js": "/greencreate.github.io/static/js/main.8a7bad3d.chunk.js",
-    "main.js.map": "/greencreate.github.io/static/js/main.8a7bad3d.chunk.js.map",
+    "main.css": "/greencreate.github.io/static/css/main.7fafac48.chunk.css",
+    "main.js": "/greencreate.github.io/static/js/main.decc0049.chunk.js",
+    "main.js.map": "/greencreate.github.io/static/js/main.decc0049.chunk.js.map",
     "runtime-main.js": "/greencreate.github.io/static/js/runtime-main.5b8bb231.js",
     "runtime-main.js.map": "/greencreate.github.io/static/js/runtime-main.5b8bb231.js.map",
     "static/js/2.80de8ee8.chunk.js": "/greencreate.github.io/static/js/2.80de8ee8.chunk.js",
     "static/js/2.80de8ee8.chunk.js.map": "/greencreate.github.io/static/js/2.80de8ee8.chunk.js.map",
     "index.html": "/greencreate.github.io/index.html",
-    "precache-manifest.eb583429c610ea429e08c7ae7cf3fb9e.js": "/greencreate.github.io/precache-manifest.eb583429c610ea429e08c7ae7cf3fb9e.js",
+    "precache-manifest.d66406ae1e560f76c8a75c3a0c4f38bd.js": "/greencreate.github.io/precache-manifest.d66406ae1e560f76c8a75c3a0c4f38bd.js",
     "service-worker.js": "/greencreate.github.io/service-worker.js",
-    "static/css/main.bfe4b74f.chunk.css.map": "/greencreate.github.io/static/css/main.bfe4b74f.chunk.css.map",
+    "static/css/main.7fafac48.chunk.css.map": "/greencreate.github.io/static/css/main.7fafac48.chunk.css.map",
     "static/js/2.80de8ee8.chunk.js.LICENSE.txt": "/greencreate.github.io/static/js/2.80de8ee8.chunk.js.LICENSE.txt",
     "static/media/Hamburger_icon.svg": "/greencreate.github.io/static/media/Hamburger_icon.86595150.svg",
     "static/media/bills.png": "/greencreate.github.io/static/media/bills.dff5bed1.png",
@@ -30,7 +30,7 @@
   "entrypoints": [
     "static/js/runtime-main.5b8bb231.js",
     "static/js/2.80de8ee8.chunk.js",
-    "static/css/main.bfe4b74f.chunk.css",
-    "static/js/main.8a7bad3d.chunk.js"
+    "static/css/main.7fafac48.chunk.css",
+    "static/js/main.decc0049.chunk.js"
   ]
 }
