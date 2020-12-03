@@ -42,8 +42,12 @@
 
 .about-presslinks {
   font-weight: 600;
-  padding-top: 0.2rem;
+  padding-top: 0;
   padding-bottom: 40px;
+}
+
+.about-presslinks p {
+  padding: 4px 0;
 }
 
 .about-presslinks a {
