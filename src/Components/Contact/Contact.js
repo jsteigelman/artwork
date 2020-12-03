@@ -9,8 +9,8 @@ export class Contact extends React.Component {
         <section className="contact-container-desktop">
           <p>
             Email:{" "}
-            <a href="mailto:studiojoeythomas@gmail.com?subject=Inquiry">
-              studiojoeythomas@gmail.com
+            <a href="mailto:joeythomasstudio@gmail.com?subject=Inquiry">
+              joeythomasstudio@gmail.com
             </a>
             <br />
             Instagram:{" "}
@@ -37,8 +37,8 @@ export class Contact extends React.Component {
 
           <p>
             Email:{"  "}
-            <a href="mailto:studiojoeythomas@gmail.com?subject=Inquiry" className="contact-mobile-email">
-              studiojoeythomas@gmail.com 
+            <a href="mailto:joeythomasstudio@gmail.com?subject=Inquiry" className="contact-mobile-email">
+            joeythomasstudio@gmail.com 
             </a>
             <br />
             <br />
@@ -66,8 +66,8 @@ export class ContactMobile extends React.Component {
         <section className="mobile- contact-container-desktop">
           <p>
             Email:{" "}
-            <a href="mailto:studiojoeythomas@gmail.com?subject=Inquiry">
-              studiojoeythomas@gmail.com
+            <a href="mailto:joeythomasstudio@gmail.com?subject=Inquiry">
+            joeythomasstudio@gmail.com
             </a>
             <br />
             Instagram:{" "}
@@ -94,8 +94,8 @@ export class ContactMobile extends React.Component {
 
           <p>
             Email:{"  "}
-            <a href="mailto:studiojoeythomas@gmail.com?subject=Inquiry" className="contact-mobile-email">
-              studiojoeythomas@gmail.com 
+            <a href="mailto:joeythomasstudio@gmail.com?subject=Inquiry" className="contact-mobile-email">
+            joeythomasstudio@gmail.com 
             </a>
             <br />
             <br />
