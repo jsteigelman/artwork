@@ -17,9 +17,6 @@ function App() {
         <Test />
 
         <Switch>
-          <Route path="/home">
-            <Home />
-          </Route>
 
           <Route path="/work">
             <Work />
