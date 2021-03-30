@@ -11,6 +11,5 @@ This is a professional artist [website](https://joeythomasart.com/) built using 
 
 ### Website Walkthrough GIF
 
-<img src="https://i.imgur.com/78CieHz.gif" width=800><br>
-<img src="https://i.imgur.com/DPgLJYY.gif" ><br>
+<img src="https://i.imgur.com/DPgLJYY.gif">
 
