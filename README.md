@@ -1,6 +1,6 @@
 # Artist Website
 
-This [website](https://joeythomasart.com/) features my work as an artist. 
+This is a professional artist [website](https://joeythomasart.com/). 
 
 
 ### Website Pages
