@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/greencreate.github.io/precache-manifest.40e0ce8d24d85257aab7be10995949a5.js"
+  "/greencreate.github.io/precache-manifest.cd8488dbf5406ec1b6f5d54377058c34.js"
 );
 
 self.addEventListener('message', (event) => {
