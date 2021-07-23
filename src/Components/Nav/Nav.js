@@ -3,7 +3,6 @@ import "./Nav.css";
 import navIcon from "../Images/Hamburger_icon.svg";
 import { Link } from "react-router-dom";
 
-
 export class Nav extends React.Component {
   constructor(props) {
     super(props);
@@ -21,7 +20,7 @@ export class Nav extends React.Component {
 
     if (this.state.visible) {
       menuMobile = (
-        <ul className="mobile-menu-nav-folder-content">
+        <ul className="mobile-nav-list">
           <li>
             <Link to="/home" onClick={this.clickHandler}>
               Home
@@ -50,13 +49,13 @@ export class Nav extends React.Component {
       <>
         {/* Desktop menu nav  */}
 
-        <nav className="desktop-menu-nav-folder">
-          <ul className="desktop-menu-nav-folder-content">
+        <nav className="desktop-nav-container">
+          <ul className="desktop-nav-list">
             <li>
               <Link to="/home">
                 {" "}
-                <h1 className="desktop-menu-nav-folder-content-name">
-                  Joey <br /> Thomas
+                <h1 className="desktop-nav-name">
+                  Joey <br /> Steigelman
                 </h1>
               </Link>
             </li>
@@ -73,16 +72,22 @@ export class Nav extends React.Component {
             <li>
               <Link to="/contact">Contact</Link>
             </li>
+            <li className="built-by-footer">
+              Website built by <br /> Joey Steigelman <br />© 2021
+            </li>
           </ul>
         </nav>
 
         {/* Mobile menu nav */}
 
-        <div className="mobile-menu-nav-div">
-          <nav className="mobile-menu-nav-folder">
-            <div className="mobile-menu-nav-folder-content-name">
-              <h1>Joey Thomas</h1>
+        <div className="mobile-button">
+          <nav className="mobile-nav-container">
+            <div className="mobile-nav-name">
+              <Link to="/home">
+                <h1>Joey Steigelman</h1>
+              </Link>
             </div>
+
             <button
               onClick={this.clickHandler}
               className="mobile-menu-button-icon"
@@ -99,7 +104,6 @@ export class Nav extends React.Component {
                     stroke="black"
                     stroke-width="4"
                     stroke-linecap="round"
-
                   />
                   <line
                     x1="10"
@@ -109,7 +113,6 @@ export class Nav extends React.Component {
                     stroke="black"
                     stroke-width="4"
                     stroke-linecap="round"
-
                   />
                 </svg>
               )}

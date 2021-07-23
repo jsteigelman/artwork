@@ -8,7 +8,10 @@ import pinkgreen from "../Images/neon_pinkgreen_light_large.jpg";
 import sunset from "../Images/sunset.jpg";
 import boxpurple from "../Images/box_purple.jpg";
 import sunsetred from "../Images/sunset_red.jpg";
-import boxbluegallery from "../Images/box_blue_gallery.jpg";
+import sunsetpurple from "../Images/sunset_purple.jpg";
+import boxblue from "../Images/box_blue.jpg";
+import bills_two from "../Images/acrylic_podium.jpg";
+
 
 export class Work extends React.Component {
   render() {
@@ -32,6 +35,18 @@ export class Work extends React.Component {
               <span>Three Tubes of Winsor & Newton Paint</span>, 2019
               <br />
               hologram
+            </p>
+          </div>
+        </div>
+
+        <div className="work-image-row">
+          <img src={sunsetpurple} alt="artwork" />
+          <div className="work-artwork-details">
+            <p>
+              {" "}
+              <span>Sunset (19 June 2017)</span>, 2018
+              <br />
+              neon tubing and wire with suspension frame
             </p>
           </div>
         </div>
@@ -61,6 +76,18 @@ export class Work extends React.Component {
         </div>
 
         <div className="work-image-row">
+          <img src={boxpurple} alt="artwork" />
+          <div className="work-artwork-details">
+            <p>
+              {" "}
+              <span>Light Box XVI</span>, 2019
+              <br />
+              mirrored acrylic with neon tubing and wire
+            </p>
+          </div>
+        </div>
+
+        <div className="work-image-row">
           <img src={dusk} alt="artwork" />
           <div className="work-artwork-details">
             <p>
@@ -73,13 +100,13 @@ export class Work extends React.Component {
         </div>
 
         <div className="work-image-row">
-          <img src={boxpurple} alt="artwork" />
+          <img src={bills_two} alt="work-artwork" />
           <div className="work-artwork-details">
             <p>
               {" "}
-              <span>Light Box XVI</span>, 2019
+              <span>Three One-Dollar Bills</span>, 2018
               <br />
-              mirrored acrylic with neon tubing and wire
+              acrylic resin and dollar bills
             </p>
           </div>
         </div>
@@ -97,19 +124,7 @@ export class Work extends React.Component {
         </div>
 
         <div className="work-image-row">
-          <img src={sunset} alt="artwork" />
-          <div className="work-artwork-details">
-            <p>
-              {" "}
-              <span>Sunset (19 June 2017)</span>, 2018
-              <br />
-              neon tubing and wire with suspension frame
-            </p>
-          </div>
-        </div>
-
-        <div className="work-image-row">
-          <img src={boxbluegallery} alt="artwork" />
+          <img src={boxblue} alt="artwork" />
           <div className="work-artwork-details">
             <p>
               {" "}
