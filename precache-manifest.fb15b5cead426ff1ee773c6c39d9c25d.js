@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c6d569bde5906d887c74b38ab8d7b672",
+    "revision": "c68f9bd54e512cdc716faf10af5862e5",
     "url": "/greencreate.github.io/index.html"
   },
   {
-    "revision": "33e2311d138a4b796e27",
-    "url": "/greencreate.github.io/static/css/main.72e24726.chunk.css"
+    "revision": "abbb43779f3f8e697fa9",
+    "url": "/greencreate.github.io/static/css/main.fd689012.chunk.css"
   },
   {
     "revision": "c30b92b17be63f0d019d",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/greencreate.github.io/static/js/2.a58edeb8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "33e2311d138a4b796e27",
+    "revision": "abbb43779f3f8e697fa9",
     "url": "/greencreate.github.io/static/js/main.b39206c9.chunk.js"
   },
   {
