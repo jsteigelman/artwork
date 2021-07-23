@@ -1,39 +1,47 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a4ea423128e816be723b9412b1d0fc0f",
+    "revision": "c6d569bde5906d887c74b38ab8d7b672",
     "url": "/greencreate.github.io/index.html"
   },
   {
-    "revision": "eea444a6eeb8fc21076c",
-    "url": "/greencreate.github.io/static/css/main.7fafac48.chunk.css"
+    "revision": "33e2311d138a4b796e27",
+    "url": "/greencreate.github.io/static/css/main.72e24726.chunk.css"
   },
   {
-    "revision": "b0b8f263641648687a2d",
-    "url": "/greencreate.github.io/static/js/2.80de8ee8.chunk.js"
+    "revision": "c30b92b17be63f0d019d",
+    "url": "/greencreate.github.io/static/js/2.a58edeb8.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/greencreate.github.io/static/js/2.80de8ee8.chunk.js.LICENSE.txt"
+    "url": "/greencreate.github.io/static/js/2.a58edeb8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "eea444a6eeb8fc21076c",
-    "url": "/greencreate.github.io/static/js/main.8635a802.chunk.js"
+    "revision": "33e2311d138a4b796e27",
+    "url": "/greencreate.github.io/static/js/main.b39206c9.chunk.js"
   },
   {
     "revision": "46d8282ff4aab2d21332",
     "url": "/greencreate.github.io/static/js/runtime-main.5b8bb231.js"
   },
   {
+    "revision": "42c401546103d6666b53b8f9bae8f730",
+    "url": "/greencreate.github.io/static/media/1B.42c40154.jpg"
+  },
+  {
     "revision": "8659515094d85059439811bbedcbbc39",
     "url": "/greencreate.github.io/static/media/Hamburger_icon.86595150.svg"
+  },
+  {
+    "revision": "312374e1810dc6c5a16b46386c608742",
+    "url": "/greencreate.github.io/static/media/acrylic_podium.312374e1.jpg"
   },
   {
     "revision": "dff5bed170a650c6f052dc2b12d5b556",
     "url": "/greencreate.github.io/static/media/bills.dff5bed1.png"
   },
   {
-    "revision": "e671c05f8e8c0128732ffcfc0b1f61cc",
-    "url": "/greencreate.github.io/static/media/box_blue_gallery.e671c05f.jpg"
+    "revision": "b2229e133d9126732aa492c47dad6f3a",
+    "url": "/greencreate.github.io/static/media/box_blue.b2229e13.jpg"
   },
   {
     "revision": "82f059780ae7aa8c748a103ad2860906",
@@ -74,6 +82,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "67d1ca4e68f27a284cdaaf5f4cbe81c3",
     "url": "/greencreate.github.io/static/media/sunset.67d1ca4e.jpg"
+  },
+  {
+    "revision": "36111260e89fc72af117e6a94628008c",
+    "url": "/greencreate.github.io/static/media/sunset_purple.36111260.jpg"
   },
   {
     "revision": "fc7a40a738567ab3a25f54b441a48bad",
