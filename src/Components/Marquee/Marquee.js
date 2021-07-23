@@ -6,7 +6,7 @@ export class Marquee extends React.Component {
         return(
             <div className="marquee">
                 <span>
-                Joey Thomas is an artist based in New York City and Berlin.
+                Joey Steigelman is an artist based in New York City and Berlin.
                 </span>
             </div>
         )
