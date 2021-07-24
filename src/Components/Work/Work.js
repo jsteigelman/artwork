@@ -5,7 +5,7 @@ import dusk from "../Images/dusk.jpg";
 import hologram from "../Images/hologram_winsor.jpg";
 import bills from "../Images/bills.png";
 import pinkgreen from "../Images/neon_pinkgreen_light_large.jpg";
-import sunset from "../Images/sunset.jpg";
+// import sunset from "../Images/sunset.jpg";
 import boxpurple from "../Images/box_purple.jpg";
 import sunsetred from "../Images/sunset_red.jpg";
 import sunsetpurple from "../Images/sunset_purple.jpg";

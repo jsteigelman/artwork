@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
-import pinkgreen_light from "../Images/neon_pinkgreen_light_medium.jpg";
-import pinkgreen_banner from "../Images/neon_pinkgreen_banner.jpg";
+// import pinkgreen_light from "../Images/neon_pinkgreen_light_medium.jpg";
+// import pinkgreen_banner from "../Images/neon_pinkgreen_banner.jpg";
 import sunsetred from "../Images/sunset_red.jpg";
 
 export class About extends React.Component {

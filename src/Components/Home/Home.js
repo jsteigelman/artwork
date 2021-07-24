@@ -1,8 +1,8 @@
 import React from "react";
 import "./Home.css";
-import purplebox from "../Images/purplebox.jpg";
-import purple_mobile from "../Images/1B.jpg";
-import purp from "../Images/purp.mp4";
+// import purplebox from "../Images/purplebox.jpg";
+// import purple_mobile from "../Images/1B.jpg";
+// import purp from "../Images/purp.mp4";
 
 export class Home extends React.Component {
   render() {
