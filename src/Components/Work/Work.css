@@ -43,6 +43,7 @@ font-style: italic;
 
   .work-container {
     margin-top: 0px;
+    padding-left: 10px;
   }
 
   div.work-image-row {
@@ -52,8 +53,6 @@ font-style: italic;
     box-sizing: border-box;
     width: 100%;
     margin: 0;
-    /* margin-left: 260px; */
-    /* margin-right: 48px; */
   }
   
   div.work-image-row img {
