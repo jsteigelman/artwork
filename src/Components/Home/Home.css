@@ -25,7 +25,8 @@
 
   /* test below */
 
-  background: url(/greencreate.github.io/static/media/purplebox.f93488a4.jpg);
+  /* background: url(/greencreate.github.io/static/media/purplebox.f93488a4.jpg); */
+  background: url(../Images/purplebox.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
