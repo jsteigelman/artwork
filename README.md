@@ -20,7 +20,7 @@ This is a professional artist website built with ReactJS.
 - Mobile-first workflow
 - Responsive design
 
-### Website Walkthrough GIF
+## Website Walkthrough GIF
 
 <!-- <img src="https://i.imgur.com/DPgLJYY.gif"> -->
 
