@@ -1,9 +1,11 @@
 # Artist Website
 
-This is a professional artist [website](https://joeysteigelman.com/) built with React. 
+This is a professional artist website built with ReactJS. 
 
+## Live Site URL
+[www.joeysteigelman.com](https://joeysteigelman.com/)
 
-### Website Pages
+## Website Pages
 - Home
 - Work
 - About
