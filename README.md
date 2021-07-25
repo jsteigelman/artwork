@@ -1,6 +1,6 @@
 # Artist Website
 
-This is a professional artist [website](https://joeythomasart.com/) built using React. 
+This is a professional artist [website](https://joeysteigelman.com/) built using React. 
 
 
 ### Website Pages
