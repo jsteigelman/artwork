@@ -2,16 +2,16 @@
 
 This is a professional artist website built with ReactJS. 
 
-### Live Site URL
+## Live Site URL
 [www.joeysteigelman.com](https://joeysteigelman.com/)
 
-### Website Pages
+## Website Pages
 - Home
 - Work
 - About
 - Contact
 
-#$# Built with
+## Built with
 
 - HTML
 - CSS
