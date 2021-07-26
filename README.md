@@ -26,3 +26,4 @@ This is a professional artist website built with ReactJS.
 <img src="https://i.imgur.com/WsEPi0K.gif">
 
 ![](https://i.imgur.com/WsEPi0K.gif)
+<img src="https://i.imgur.com/R0B4Dax.gif" width="400" />
