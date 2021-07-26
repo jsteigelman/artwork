@@ -10,11 +10,15 @@ import ReactGA from "react-ga";
 
 function App() {
 
+  // ReactGA.initialize("UA-203154360-1");
+  // ReactGA.pageview(window.location.pathname + window.location.search);
+
   useEffect(() => {
-    ReactGA.initialize("UA-203154360-1")
+    ReactGA.initialize("UA-203154360-1");
 
     //to report page view
-    ReactGA.pageview(window.location.pathname + window.location.search)
+    ReactGA.pageview(window.location.pathname + window.location.search);
+
   }, [])
 
   return (
