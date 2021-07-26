@@ -6,15 +6,15 @@ import { About } from "../About/About";
 import { Contact } from "../Contact/Contact";
 import { Nav } from "../Nav/Nav";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import ReactGa from 'react-ga';
+import ReactGA from "react-ga";
 
 function App() {
 
   useEffect(() => {
-    ReactGa.initialize('G-0W5RK1T8FK')
+    ReactGA.initialize("UA-203154360-1")
 
     //to report page view
-    ReactGa.pageview(window.location.pathname + window.location.search)
+    ReactGA.pageview(window.location.pathname + window.location.search)
   }, [])
 
   return (
