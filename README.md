@@ -22,4 +22,4 @@ This is a professional artist website built with ReactJS.
 
 ## Website Walkthrough GIF
 
-<img src="https://i.imgur.com/R0B4Dax.gif" width="800" />
+<img src="https://i.imgur.com/R0B4Dax.gif" width="600" />
