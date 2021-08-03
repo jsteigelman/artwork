@@ -1,6 +1,6 @@
 # Artist Website
 
-This is a professional artist website built with ReactJS. 
+This is a professional artist website built in React. 
 
 ## Live Site URL
 [www.joeysteigelman.com](https://joeysteigelman.com/)
@@ -15,7 +15,7 @@ This is a professional artist website built with ReactJS.
 
 - HTML
 - CSS
-- ReactJS
+- React
 - Flexbox
 - Mobile-first workflow
 - Responsive design
