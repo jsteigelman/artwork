@@ -50,9 +50,6 @@
 
 /* desktop */
 @media screen and (min-width: 600px) {
-  .mobile-home-item {
-    display: none;
-  }
 
   .home-container {
     display: grid;
@@ -78,8 +75,10 @@
   }
 
   .home-item img {
+    object-fit: cover;
     max-width: 100%;
-    height: auto;
+    max-height: 100%;
+    margin-top: 24px;
   }
 
   .home-caption {
@@ -100,10 +99,4 @@
     font-style: italic;
   }
 
-  .home-item img {
-    object-fit: cover;
-    max-width: 100%;
-    max-height: 100%;
-    margin-top: 24px;
-  }
 }
