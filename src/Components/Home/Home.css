@@ -2,30 +2,19 @@
 .home-container {
   display: flex;
   flex-direction: column;
-
   height: auto;
   width: calc(100% - 20px);
-  padding: 0 10px;
   margin-top: 60px;
-
-  padding-top: 10px;
+  padding: 10px;
   padding-bottom: 20px;
-  }
+}
 
 .home-item {
   display: flex;
   flex-direction: column;
-  /* height: calc(100vh - 244px); */
-  height: calc(100vh - 185px);
   height: calc(100vh - 60px);
-
   max-width: 100%;
   overflow: hidden;
-
-
-  /* test below */
-
-  /* background: url(/greencreate.github.io/static/media/purplebox.f93488a4.jpg); */
   background: url(../Images/purplebox.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -38,116 +27,83 @@
   object-fit: cover;
 }
 
-/* test below */
-
-
-
 .home-caption {
-  position: fixed;
-  bottom: 24px;
-
-  text-align: center;
-  margin: 0;
-  padding-top: 2px;
-
+  background-color: rgba(255, 255, 255, 0.2);
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   line-height: 146%;
   font-size: 13px;
-
-  background-color: rgba(255, 255, 255, 0.2);
-
+  text-align: center;
+  position: fixed;
+  bottom: 24px;
   width: 80%;
   left: 0;
   right: 0;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   padding: 4px 2px;
+
 }
 
 .home-caption span {
   font-style: italic;
 }
 
-
 /* desktop */
 @media screen and (min-width: 600px) {
-
   .mobile-home-item {
     display: none;
   }
 
+  .home-container {
+    display: grid;
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    column-gap: 32px;
+    box-sizing: border-box;
 
-.home-container {
-  display: grid;
-  grid-template-columns: repeat(12, minmax(0, 1fr));
-  column-gap: 32px;
-  box-sizing: border-box;
-  margin-top: 0;
-  width: calc(100% - 10px);
-  padding-right: 10px;
-
-    /* test below */
+    width: calc(100% - 10px);
+    margin-top: 0;
     padding: 20px 10px;
+  }
+
+  .home-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    grid-column-start: 1;
+    grid-column-end: 13;
+    max-width: 100%;
+    height: calc(100vh - 84px);
+    padding: 20px 0;
+  }
+
+  .home-item img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .home-caption {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    line-height: 146%;
+    font-size: 13px;
+    text-align: center;
+    position: relative;
+    bottom: 0px;
+    grid-column-start: 1;
+    grid-column-end: 13;
+    margin: 0;
+    padding-top: 2px;
+  }
+
+  .home-caption span {
+    font-style: italic;
+  }
+
+  .home-item img {
+    object-fit: cover;
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 24px;
+  }
 }
-
-.home-item {
-  grid-column-start: 1;
-  grid-column-end: 13;
-
-  /* height: calc(100vh - 44px); */
-  height: calc(100vh - 84px);
-
-  
-  max-width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-end;
-  padding: 20px 0;
-}
-
-.home-item img {
-  max-width: 100%;
-  height: auto;
-}
-
-.home-caption {
-  position: relative;
-  bottom: 0px;
-  /* test above */
-
-
-
-  text-align: center;
-  margin: 0;
-  /* padding: 0; */
-  padding-top: 2px;
-
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-  line-height: 146%;
-  font-size: 13px;
-
-  /* test below */
-  grid-column-start: 1;
-  grid-column-end: 13;
-  /* bottom: 0px; */
-  /* position: absolute; */
-}
-
-
-.home-caption span {
-  font-style: italic;
-}
-
-.home-item img {
-  object-fit: cover;
-  max-width: 100%;
-  max-height: 100%;
-  margin-top: 24px;
-}
-
-}
-
-
