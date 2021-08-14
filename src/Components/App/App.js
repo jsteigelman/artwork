@@ -5,7 +5,7 @@ import { Work } from "../Work/Work";
 import { About } from "../About/About";
 import { Contact } from "../Contact/Contact";
 import { Nav } from "../Nav/Nav";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import ReactGA from "react-ga";
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
   }, [])
 
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL + '/'}>
       <div className="app-container">
       <div className="app-container-nav">
         <Nav />
