@@ -15,20 +15,17 @@ export class About extends React.Component {
           <p>b. New York, New York</p>
           <h2>
             Joey Steigelman is an American artist living and working in New York
-            City and Berlin, Germany.
+            City and Berlin.
           </h2>
+  
           <p>
-            Guided by an interest in visual perception, Steigelman explores
-            color, light, materiality, and space. She addresses these themes in
-            a diverse range of media including painting, neon, and acrylic
-            resin. Steigelman has recently exhibited at Christie’s, New York
-            (2020), Local Project, New York (2020), The Center for Holographic
-            Arts x Plaxall Gallery, New York (2019), Cluster Gallery, New York
-            (2019), Greenpoint Gallery, New York (2019), Blackbird Gallery, New
-            York (2019), and Gallery 55, Brooklyn (2018). Steigelman was trained
-            in painting at Parsons School of Design and Pratt Institute, and is
-            a graduate of New York University.
+          Joey Steigelman is an American artist working primarily in painting and sculpture based in New York City and Berlin. Guided by an interest in visual perception, Steigelman explores color, light, materiality, and space. Her work has been exhibited at Christie’s (New York), Local Project (New York), The Center for Holographic Arts x Plaxall Gallery (New York), Cluster Gallery (New York), Greenpoint Gallery (New York), Blackbird Gallery (New York), and Gallery 55 (New York), amongst other venues. 
           </p>
+          <p>
+          Steigelman was trained in painting at Parsons School of Design and Pratt Institute, and is a graduate of New York University. Steigelman's work has been featured in Barrons, Creative Time, Hamptons Art Hub, and mentioned in STIR, as well as spotlighted on the official Instagram accounts of Christie's New York, Christie's Los Angeles, and Christie's Paris.
+
+          </p>
+
           <section className="about-presslinks">
             <p>
               Read an{" "}
@@ -42,7 +39,7 @@ export class About extends React.Component {
               with Joey Steigelman in Culturework Magazine (Feb. 2020).
             </p>
             <p>
-              See Joey Steigelman's work featured as an{" "}
+              See the Christie's New York {" "}
               <a
                 href="https://www.christies.com/auctions/educate-a-charity-exhibition"
                 target="_blank"
@@ -50,8 +47,8 @@ export class About extends React.Component {
               >
                 auction highlight
               </a>{" "}
-              at Christie's New York for a charity auction presenting the work
-              of global emerging artists (Feb. 2020).
+              of Joey Steigelman's work for a charity auction
+              featuring global emerging artists (Feb. 2020).
             </p>
             {/* <p>
               Check out The Center for Holographic Arts' artist profile on Joey
@@ -73,13 +70,6 @@ export class About extends React.Component {
               </a>{" "}
               exhibition in New York City (Nov. 2019).
             </p> */}
-            <p>
-              Steigelman's work has been featured in Barrons (2019), Creative
-              Time (2017), Hamptons Art Hub (2016), and mentioned in STIR
-              (2019). Steigelman's work has also been featured on the official
-              Instagram accounts of Christie's New York, Christie's Los Angeles,
-              and Christie's Paris.{" "}
-            </p>
           </section>
         </div>
         <div className="about-image-desktop">
