@@ -98,29 +98,6 @@
     border-bottom: 1px solid #29fd2f;
   }
   
-  /* .about-text h2 {
-    font-weight: 800;
-    line-height: 1.2em;
-  } */
-  
-  /* .about-presslinks {
-    font-weight: 600;
-    padding-top: 0;
-    padding-bottom: 40px;
-  }
-  
-  .about-presslinks p {
-    padding: 4px 0;
-  }
-  
-  .about-presslinks a {
-    text-decoration: none;
-    color: magenta;
-    border-bottom: 1px solid magenta;
-    padding-bottom: 0.5px;
-    font-weight: 600;
-  } */
-  
   .about-image-desktop img {
     object-fit: cover;
     width: 86%;
