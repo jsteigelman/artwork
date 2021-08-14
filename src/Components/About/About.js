@@ -3,8 +3,18 @@ import "./About.css";
 // import pinkgreen_light from "../Images/neon_pinkgreen_light_medium.jpg";
 // import pinkgreen_banner from "../Images/neon_pinkgreen_banner.jpg";
 import sunsetred from "../Images/sunset_red.jpg";
+import ReactGA from 'react-ga';
 
 export class About extends React.Component {
+
+  // handle button click
+  eventTrack = (category, action) => {
+    ReactGA.event({
+      category: category,
+      action: action,
+    });
+  };
+
   render() {
     return (
       <div className="about-container">
@@ -33,6 +43,7 @@ export class About extends React.Component {
                 href="https://cultureworkmagazine.org/2020/02/23/carved-out-of-time/"
                 target="_blank"
                 rel="noopener noreferrer"
+                onClick = {this.eventTrack("External Link", "External Culturework Link")}
               >
                 interview
               </a>{" "}
@@ -44,6 +55,7 @@ export class About extends React.Component {
                 href="https://www.christies.com/auctions/educate-a-charity-exhibition"
                 target="_blank"
                 rel="noopener noreferrer"
+                onClick = {this.eventTrack("External Link", "External Christie's Educate Link")}
               >
                 auction highlight
               </a>{" "}

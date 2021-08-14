@@ -2,6 +2,8 @@ import React from "react";
 import "./Nav.css";
 import navIcon from "../Images/Hamburger_icon.svg";
 import { Link } from "react-router-dom";
+import ReactGA from 'react-ga';
+
 
 export class Nav extends React.Component {
   constructor(props) {
@@ -15,6 +17,17 @@ export class Nav extends React.Component {
     this.setState({ visible: !this.state.visible });
   };
 
+  // onClick={()=>{ this.clickHandler(); this.eventTrack("Page Link", "Home Page Link") }}
+  // onClick = {this.eventTrack("Page Link", "Home Page Link")}
+
+  // handle button click
+  eventTrack = (category, action) => {
+    ReactGA.event({
+      category: category,
+      action: action,
+    });
+  };
+
   render() {
     let menuMobile = null;
 
@@ -22,22 +35,26 @@ export class Nav extends React.Component {
       menuMobile = (
         <ul className="mobile-nav-list">
           <li>
-            <Link to="/home" onClick={this.clickHandler}>
+            <Link to="/home"   onClick={()=>{ this.clickHandler(); this.eventTrack("Page Link", "Home Page Link") }}
+            >
               Home
             </Link>
           </li>
           <li>
-            <Link to="/work" onClick={this.clickHandler}>
+            <Link to="/work"   onClick={()=>{ this.clickHandler(); this.eventTrack("Page Link", "Work Page Link") }}
+            >
               Work
             </Link>
           </li>
           <li>
-            <Link to="/about" onClick={this.clickHandler}>
+            <Link to="/about"   onClick={()=>{ this.clickHandler(); this.eventTrack("Page Link", "About Page Link") }}
+            >
               About
             </Link>
           </li>
           <li>
-            <Link to="/contact" onClick={this.clickHandler}>
+            <Link to="/contact"   onClick={()=>{ this.clickHandler(); this.eventTrack("Page Link", "Contact Page Link") }}
+            >
               Contact
             </Link>
           </li>
@@ -61,16 +78,20 @@ export class Nav extends React.Component {
             </li>
 
             <li>
-              <Link to="/home">Home</Link>
+              <Link to="/home"   onClick = {this.eventTrack("Page Link", "Home Page Link")}
+              >Home</Link>
             </li>
             <li>
-              <Link to="/work">Work</Link>
+              <Link to="/work"   onClick = {this.eventTrack("Page Link", "Work Page Link")}
+              >Work</Link>
             </li>
             <li>
-              <Link to="/about">About</Link>
+              <Link to="/about"   onClick = {this.eventTrack("Page Link", "About Page Link")}
+              >About</Link>
             </li>
             <li>
-              <Link to="/contact">Contact</Link>
+              <Link to="/contact"   onClick = {this.eventTrack("Page Link", "Contact Page Link")}
+              >Contact</Link>
             </li>
             <li className="built-by-footer">
               Website built by <br /> Joey Steigelman <br />© 2021
