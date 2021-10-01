@@ -1,6 +1,6 @@
 # Artist Website
 
-This is an art portfolio website. 
+I'm an artist-turned-developer. This is a website I built for my art portfolio.
 
 ## Live Site URL
 [www.joeysteigelman.com](https://joeysteigelman.com/)
