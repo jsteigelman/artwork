@@ -35,25 +35,25 @@ export class Nav extends React.Component {
       menuMobile = (
         <ul className="mobile-nav-list">
           <li>
-            <Link to="/home"   onClick={()=>{ this.clickHandler(); this.eventTrack("Page Link", "Home Page Link") }}
+            <Link to="/home"   onClick={this.eventTrack.bind("Page Link", "Home Page Link")}
             >
               Home
             </Link>
           </li>
           <li>
-            <Link to="/work"   onClick={()=>{ this.clickHandler(); this.eventTrack("Page Link", "Work Page Link") }}
+            <Link to="/work"   onClick={this.eventTrack.bind("Page Link", "Work Page Link")}
             >
               Work
             </Link>
           </li>
           <li>
-            <Link to="/about"   onClick={()=>{ this.clickHandler(); this.eventTrack("Page Link", "About Page Link") }}
+            <Link to="/about"   onClick={this.eventTrack.bind("Page Link", "About Page Link")}
             >
               About
             </Link>
           </li>
           <li>
-            <Link to="/contact"   onClick={()=>{ this.clickHandler(); this.eventTrack("Page Link", "Contact Page Link") }}
+            <Link to="/contact"   onClick={this.eventTrack.bind("Page Link", "Contact Page Link")}
             >
               Contact
             </Link>
