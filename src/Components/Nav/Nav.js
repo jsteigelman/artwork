@@ -94,7 +94,7 @@ export class Nav extends React.Component {
               >Contact</Link>
             </li>
             <li className="built-by-footer">
-              Website built by <br /> Joey Steigelman <br />© 2021
+              Website built by <br /> Joey Steigelman <br />© 2022
             </li>
           </ul>
         </nav>
