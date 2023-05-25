@@ -18,7 +18,7 @@ export class Contact extends React.Component {
           >
             hello@joeysteigelman.com
           </a>
-          <br />
+          {/* <br />
           <br />
           Instagram: {"  "}
           <a
@@ -27,7 +27,7 @@ export class Contact extends React.Component {
             rel="noopener noreferrer"
           >
             @joey_
-          </a>
+          </a> */}
         </p>
         </div>
 
